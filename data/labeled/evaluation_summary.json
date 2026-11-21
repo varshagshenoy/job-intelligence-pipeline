@@ -1,0 +1,111 @@
+{
+    "postings_evaluated": 20,
+    "total_field_comparisons": 300,
+    "overall_exact_match_accuracy": 0.8667,
+    "non_skill_field_accuracy": 0.95,
+    "field_accuracy": [
+        {
+            "field": "is_relevant",
+            "correct": 20,
+            "total": 20,
+            "accuracy": 1.0
+        },
+        {
+            "field": "is_us_role",
+            "correct": 20,
+            "total": 20,
+            "accuracy": 1.0
+        },
+        {
+            "field": "company",
+            "correct": 19,
+            "total": 20,
+            "accuracy": 0.95
+        },
+        {
+            "field": "title",
+            "correct": 20,
+            "total": 20,
+            "accuracy": 1.0
+        },
+        {
+            "field": "location",
+            "correct": 18,
+            "total": 20,
+            "accuracy": 0.9
+        },
+        {
+            "field": "country",
+            "correct": 18,
+            "total": 20,
+            "accuracy": 0.9
+        },
+        {
+            "field": "work_mode",
+            "correct": 20,
+            "total": 20,
+            "accuracy": 1.0
+        },
+        {
+            "field": "employment_type",
+            "correct": 17,
+            "total": 20,
+            "accuracy": 0.85
+        },
+        {
+            "field": "salary_min",
+            "correct": 19,
+            "total": 20,
+            "accuracy": 0.95
+        },
+        {
+            "field": "salary_max",
+            "correct": 19,
+            "total": 20,
+            "accuracy": 0.95
+        },
+        {
+            "field": "salary_currency",
+            "correct": 18,
+            "total": 20,
+            "accuracy": 0.9
+        },
+        {
+            "field": "experience_years_min",
+            "correct": 20,
+            "total": 20,
+            "accuracy": 1.0
+        },
+        {
+            "field": "experience_years_max",
+            "correct": 19,
+            "total": 20,
+            "accuracy": 0.95
+        },
+        {
+            "field": "required_skills",
+            "correct": 3,
+            "total": 20,
+            "accuracy": 0.15
+        },
+        {
+            "field": "preferred_skills",
+            "correct": 10,
+            "total": 20,
+            "accuracy": 0.5
+        }
+    ],
+    "skill_metrics": {
+        "required_skills": {
+            "precision": 0.6549,
+            "recall": 0.5692,
+            "f1": 0.6091
+        },
+        "preferred_skills": {
+            "precision": 0.6727,
+            "recall": 0.6852,
+            "f1": 0.6789
+        }
+    },
+    "skill_matching_method": "Normalized exact phrase matching"
+}

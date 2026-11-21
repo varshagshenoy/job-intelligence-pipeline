@@ -1,0 +1,16 @@
+field,correct,total,accuracy
+is_relevant,20,20,1.0
+is_us_role,20,20,1.0
+company,19,20,0.95
+title,20,20,1.0
+location,18,20,0.9
+country,18,20,0.9
+work_mode,20,20,1.0
+employment_type,17,20,0.85
+salary_min,19,20,0.95
+salary_max,19,20,0.95
+salary_currency,18,20,0.9
+experience_years_min,20,20,1.0
+experience_years_max,19,20,0.95
+required_skills,3,20,0.15
+preferred_skills,10,20,0.5
